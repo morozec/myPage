@@ -6,7 +6,7 @@ import Profile from './components/Profile'
 import Footer from './components/Footer'
 
 function App() {
-  return (
+  return (  
     <div className="App">
       <TopBar />
       <Profile />

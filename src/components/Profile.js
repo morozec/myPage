@@ -5,6 +5,10 @@ import Education from './Education'
 import profile from '../profile.json'
 import classnames from 'classnames';
 
+import { Route, Switch } from 'react-router';
+import About from './About'
+import Contacts from './Contacts'
+
 const Profile = () => {
     const [activeTab, setActiveTab] = useState(1)
 
@@ -17,34 +21,40 @@ const Profile = () => {
                 </Container>
             </Jumbotron>
 
-            <Container>
-                <Nav tabs>
-                    <NavItem>
-                        <NavLink className={classnames({ active: activeTab === 1 }, {navLink:true})}
-                            onClick={() => setActiveTab(1)}>
-                            Опыт работы
-                        </NavLink>
-                    </NavItem>
+            <Switch>
+                <Route exact path='/about' component={About} />
+                <Route exact path='/contacts' component={Contacts} />
 
-                    <NavItem >
-                        <NavLink className={classnames({ active: activeTab === 2 }, {navLink:true})}
-                            onClick={() => setActiveTab(2)}>
-                            Образование
-                        </NavLink>
-                    </NavItem>
-                </Nav>
+                <Route path='/' render={props =>
+                    <Container>
+                        <Nav tabs>
+                            <NavItem>
+                                <NavLink className={classnames({ active: activeTab === 1 }, { navLink: true })}
+                                    onClick={() => setActiveTab(1)}>
+                                    Опыт работы
+                         </NavLink>
+                            </NavItem>
 
-                <TabContent activeTab={activeTab}>
-                    <TabPane tabId={1}>
-                        <Experience />
-                    </TabPane>
+                            <NavItem >
+                                <NavLink className={classnames({ active: activeTab === 2 }, { navLink: true })}
+                                    onClick={() => setActiveTab(2)}>
+                                    Образование
+                         </NavLink>
+                            </NavItem>
+                        </Nav>
 
-                    <TabPane tabId={2}>
-                        <Education />
-                    </TabPane>
-                </TabContent>
+                        <TabContent activeTab={activeTab}>
+                            <TabPane tabId={1}>
+                                <Experience />
+                            </TabPane>
 
-            </Container>
+                            <TabPane tabId={2}>
+                                <Education />
+                            </TabPane>
+                        </TabContent>
+                    </Container>
+                } />
+            </Switch>
         </div>
     )
 }
