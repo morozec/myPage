@@ -1,25 +1,80 @@
 {
-    "title": "Software Engineer",
-    "summary": "TODO",
+    "title": "Программист-разработчик C#",
+    "summary": "",
     "studies": [
         {
-            "institute": "Samara state technical university",
+            "institute": "ФГБОУ ВО Самарский государственный технический университет, аспирантура",
+            "logo": "https://samgtu.ru/uploads/redactor/5aa2c7890ba3c.png",
+            "url": "https://samgtu.ru/",            
+            "title": "Механика деформируемого твердого тела, кандидат технических наук.",
+            "durationInYears": "5",
+            "graduationYear": 2017
+        },
+        {
+            "institute": "ФГБОУ ВО Самарский государственный технический университет",
             "logo": "https://samgtu.ru/uploads/redactor/5aa2c7890ba3c.png",
             "url": "https://samgtu.ru/",
-            "title": "Математик, системный программист",
+            "title": "Математик, системный программист.",
             "durationInYears": "5",
             "graduationYear": 2012
-        }
+        },
+        {
+            "institute": "ФГБОУ ВО Самарский государственный технический университет",
+            "logo": "https://samgtu.ru/uploads/redactor/5aa2c7890ba3c.png",
+            "url": "https://samgtu.ru/",
+            "title": "Переводчик в сфере профессиональной коммуникации (английский язык).",
+            "durationInYears": "5",
+            "graduationYear": 2012
+        }                
     ],
     "certifications": [
         {
-            "logo": "https://www.certmetrics.com/api/ob/image/amazon/c/1",
-            "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
-            "title": "AWS Certified Solutions Architect - Associate",
-            "issuer": "Amazon Web Services",
-            "issueDate": "2018-09-01",
-            "expiryDate": "2020-09-01",
-            "verificationLink": "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-13&ci=AWS00487431"
+            "logo": "https://www.intuit.ru/sites/all/themes/intuit/logo.png",
+            "url": "https://www.intuit.ru/studies/courses/3734/976/info",
+            "title": "HTML5. Основы клиентской разработки",
+            "issuer": "НОУ Интуит",
+            "issueDate": "2017-01-19",           
+            "verificationLink": "https://www.intuit.ru/verifydiplomas/101031849"
+        },
+        {
+            "logo": "https://bookflow.ru/wp-content/uploads/2017/12/geekbrains-logo.jpg",
+            "url": "https://geekbrains.ru/courses/112",
+            "title": "Интенсив \"Python для начинающих\". Знакомство с Python",
+            "issuer": "Образовательный портал GeekBrains",
+            "issueDate": "2017-07-06",           
+            "verificationLink": "https://geekbrains.ru/certificates/265396"
+        },
+        {
+            "logo": "https://cdn.specialist.ru/Content/Image/Main/logo.svg",
+            "url": "https://www.specialist.ru/course/m20486",
+            "title": "Разработка Web приложений с использованием ASP.NET 4.5 MVC 4",
+            "issuer": "Учебный центр при МГТУ им. Н.Э. Баумана Специалист.ru",
+            "issueDate": "2015-12-11",           
+            "verificationLink": "https://www.specialist.ru/graduate/groupcert/1305454"
+        },
+        {
+            "logo": "https://www.intuit.ru/sites/all/themes/intuit/logo.png",
+            "url": "https://www.intuit.ru/studies/courses/569/425/info",
+            "title": "Язык программирования Java и среда NetBeans",
+            "issuer": "НОУ Интуит",
+            "issueDate": "2012-01-17",           
+            "verificationLink": "https://www.intuit.ru/verifydiplomas/00168530"
+        },
+        {
+            "logo": "https://www.intuit.ru/sites/all/themes/intuit/logo.png",
+            "url": "https://www.intuit.ru/studies/courses/1001/297/info",
+            "title": "Базы данных: модели, разработка, реализация",
+            "issuer": "НОУ Интуит",
+            "issueDate": "2011-01-13",           
+            "verificationLink": "https://www.intuit.ru/verifydiplomas/00111514"
+        },
+        {
+            "logo": "https://www.intuit.ru/sites/all/themes/intuit/logo.png",
+            "url": "https://www.intuit.ru/studies/courses/44/44/info",
+            "title": "Основы программирования на языке Пролог",
+            "issuer": "НОУ Интуит",
+            "issueDate": "2010-12-06",           
+            "verificationLink": "http://www.intuit.ru/verifydiplomas/00105913"
         }
     ],
     "experiences": [
@@ -29,11 +84,63 @@
             "url": "http://www.gipvn.ru/",
             "roles": [
                 {
-                    "title": "Software developer",
-                    "description": "Development of Application (bots, add-ons) that help simplify day-to-day work for companies using platforms such as Workplace or Atlassian products. To achieve this purpose, Serverless framework is being used taking advantage of AWS stack technologies.",
+                    "title": "Главный специалист отдела информационных технологий",
+                    "descriptions": [
+                        "Разработка программного обеспечения для выполнения интегрированных проектов нефтегазовых месторождений на языке C# (WPF).",
+                        "Fullstack-разработка веб-приложения для выполнения интегрированных проектов нефтегазовых месторождений. Использовалась технология ASP.NET на серверной стороне, библиотека React для разработки пользовательского интерфейса, библиотека OpenLayers для работы с картой."
+                    ],                     
                     "startDate": "2017-05-01",
                     "currentJob": true,
-                    "location": "Samara, Russia"
+                    "location": "Самара, Россия"
+                }
+            ]
+        },
+        {
+            "companyName": "ООО СамараНИПИнефть",
+            "logo": "http://gti-geo.ru/sites/default/files/styles/large_retina-copy/public/blog-img/image99621551_0.jpg?itok=LmG61nEc",      
+            "url": "https://samara.hh.ru/employer/241845",
+            "roles": [
+                {
+                    "title": "Ведущий инженер отдела концептуального проектирования и ТЭО инвестиций",
+                    "descriptions": [
+                        "Разработка программного обеспечения для выполнения интегрированных проектов нефтегазовых месторождений на языке C# (WPF).",
+                        "Разработка программного обеспечения для проектирования 3D-профилей стволов скважин на языке Java."
+                    ],                     
+                    "startDate": "2012-05-01",
+                    "endDate":"2017-04-30",                    
+                    "location": "Самара, Россия"
+                }
+            ]
+        },
+        {
+            "companyName": "ФГБОУ ВО Самарский государственный технический университет",
+            "logo": "https://samgtu.ru/uploads/redactor/5aa2c7890ba3c.png",      
+            "url": "https://samgtu.ru/",
+            "roles": [
+                {
+                    "title": "Младший научный сотрудник кафедры «Прикладная математика и информатика» (научно-исследовательский сектор)",
+                    "descriptions": [
+                        "Научно-исследовательская работа. Экспериментальное исследование металлофизических характеристик материалов. Построение стохастических моделей оценки остаточных напряжений в упрочненных элементах конструкции в условиях ползучести."                        
+                    ],                     
+                    "startDate": "2008-09-01",
+                    "endDate":"2013-08-31",                    
+                    "location": "Самара, Россия"
+                }
+            ]
+        },
+        {
+            "companyName": "ООО WeeSEE Rus",
+            "logo": "https://www.wesee.com/wp-content/themes/CHCDigital/img/wesee_rgb_tiny.png",      
+            "url": "https://www.wesee.com/",
+            "roles": [
+                {
+                    "title": "Программист отдела математических методов",
+                    "descriptions": [
+                        "Разработка математических алгоритмов для распознавания образов."                        
+                    ],                     
+                    "startDate": "2012-02-01",
+                    "endDate":"2012-04-30",                    
+                    "location": "Самара, Россия"
                 }
             ]
         }

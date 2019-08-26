@@ -15,7 +15,7 @@ const TopBar = () => {
             <Container>
                 <NavbarBrand href="/">
                     <img src={profilePic} className='profile-pic' alt='Andrei Morozov'/>
-                    <span>Andrei Morozov</span>
+                    <span>Андрей Морозов</span>
                 </NavbarBrand>
 
                 {/* <NavbarToggler onClick={toggle} />

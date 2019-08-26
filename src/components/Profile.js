@@ -22,14 +22,14 @@ const Profile = () => {
                     <NavItem>
                         <NavLink className={classnames({ active: activeTab === 1 }, {navLink:true})}
                             onClick={() => setActiveTab(1)}>
-                            Experience
+                            Опыт работы
                         </NavLink>
                     </NavItem>
 
                     <NavItem >
                         <NavLink className={classnames({ active: activeTab === 2 }, {navLink:true})}
                             onClick={() => setActiveTab(2)}>
-                            Education
+                            Образование
                         </NavLink>
                     </NavItem>
                 </Nav>
