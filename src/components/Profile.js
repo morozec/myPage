@@ -12,7 +12,7 @@ const Profile = () => {
         <div>
             <Jumbotron>
                 <Container>
-                    <h1 className='display-3'>{profile.title}</h1>
+                    <h1 className='j-header'>{profile.title}</h1>
                     <p className='lead'>{profile.summary}</p>
                 </Container>
             </Jumbotron>
