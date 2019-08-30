@@ -4,12 +4,7 @@
   border-radius: 50px;
 }
 
-a {
-  color: #343a40;
-}
-
-a:hover {
-  color: #173798;
+a:hover { 
   text-decoration: none;
 }
 
