@@ -24,10 +24,7 @@ const TopBar = () => {
                     <Nav className='ml-auto' navbar>
                         <NavItem>
                             <NavLink tag={Link} to ="/about">Обо мне</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink tag={Link} to="/contacts">Контакты</NavLink>
-                        </NavItem>
+                        </NavItem>                       
                     </Nav>                    
                 </Collapse>
             </Container>

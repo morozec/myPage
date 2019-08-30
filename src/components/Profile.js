@@ -8,7 +8,6 @@ import classnames from 'classnames';
 
 import { Route, Switch } from 'react-router';
 import About from './About'
-import Contacts from './Contacts'
 
 const Profile = () => {
     const [activeTab, setActiveTab] = useState(1)
@@ -23,8 +22,7 @@ const Profile = () => {
             </Jumbotron>
 
             <Switch>
-                <Route exact path='/about' component={About} />
-                <Route exact path='/contacts' component={Contacts} />
+                <Route exact path='/about' component={About} />               
 
                 <Route path='/' render={props =>
                     <Container>
