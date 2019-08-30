@@ -144,5 +144,50 @@
                 }
             ]
         }
-    ]
+    ],
+
+    "projects":[
+        {
+            "projectName":"Домовой, портал-помощник по дому",
+            "logo":"Domovoy.png",
+            "url":"http://domovoy.us-east-2.elasticbeanstalk.com/",
+            "description":"Проект-победитель регионального этапа всероссийского конкурса для ИТ-специалистов, дизайнеров и управленцев в сфере цифровой экономики \"Цифровой прорыв\". Позволяет организовать конкурс по выбору управляющей компании, выбирать тариф ЖКХ, закупить услуги по рыночным ценам.",
+            "teammates":[
+                {
+                    "name":"Свистунов Александр",
+                    "role":"руководитель проекта",
+                    "url":"https://vk.com/tom_sv"
+                },
+                {
+                    "name":"Шадров Сергей",
+                    "role":"программист",
+                    "url":"https://vk.com/grayhb"
+                },
+                {
+                    "name":"Прокофьев Дмитрий",
+                    "role":"программист",
+                    "url":"https://vk.com/id47480899"
+                },
+                {
+                    "name":"Потанцев Иван",
+                    "role":"дизайнер",
+                    "url":"https://vk.com/id33356273"
+                }
+            ]
+        },
+
+        {
+            "projectName":"Монополия, онлайн-игра",
+            "logo":"https://i.pinimg.com/originals/ab/cc/d6/abccd63f85355902a292840f4b77f502.jpg",
+            "url":"https://github.com/morozec/Monopoly",
+            "description":"Онлайн-версия известной настольной игры \"Монополия\". Проект находится в разработке."
+            
+        }
+    ],
+
+    "contacts":{
+        "email":"andre15@inbox.ru",
+        "vk":"https://vk.com/andreimorozov90",
+        "telegram":"amorozec"
+    }   
 }

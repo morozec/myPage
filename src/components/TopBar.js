@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Container, Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import profilePic from '../me.jpg'
+import profilePic from '../img/me.jpg'
 import {Link} from 'react-router-dom'
 
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Jumbotron, Container, TabContent, TabPane, Nav, NavItem, NavLink } from "reactstrap";
 import Experience from './Experience'
 import Education from './Education'
+import MainProjects from './MainProjects'
 import profile from '../profile.json'
 import classnames from 'classnames';
 
@@ -32,14 +33,21 @@ const Profile = () => {
                                 <NavLink className={classnames({ active: activeTab === 1 }, { navLink: true })}
                                     onClick={() => setActiveTab(1)}>
                                     Опыт работы
-                         </NavLink>
+                                </NavLink>
                             </NavItem>
 
                             <NavItem >
                                 <NavLink className={classnames({ active: activeTab === 2 }, { navLink: true })}
                                     onClick={() => setActiveTab(2)}>
                                     Образование
-                         </NavLink>
+                                </NavLink>
+                            </NavItem>
+
+                            <NavItem >
+                                <NavLink className={classnames({ active: activeTab === 3 }, { navLink: true })}
+                                    onClick={() => setActiveTab(3)}>
+                                    Основные проекты
+                                </NavLink>
                             </NavItem>
                         </Nav>
 
@@ -50,6 +58,10 @@ const Profile = () => {
 
                             <TabPane tabId={2}>
                                 <Education />
+                            </TabPane>
+
+                            <TabPane tabId={3}>
+                                <MainProjects />
                             </TabPane>
                         </TabContent>
                     </Container>
