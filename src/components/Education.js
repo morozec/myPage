@@ -18,7 +18,7 @@ const Education = () => (
                     moment.locale('ru')
                     return <Media key={i}>
                         <Media left top href={study.url}>
-                            <Media object src={study.logo} alt={study.institute}/>
+                            <Media object src={study.logo} alt={study.institute} className='radius'/>
                         </Media>
                         <Media body>
                             <Media heading>

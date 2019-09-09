@@ -46,7 +46,7 @@ const Experience = () => {
                         <div key={i}>
                             <Media>
                                 <Media left top href={experience.url}>
-                                    <Media object src={experience.logo} alt={experience.companyName} />
+                                    <Media object src={experience.logo} alt={experience.companyName} className='radius'/>
                                 </Media>
                                 <Media body>
                                     <Media heading>

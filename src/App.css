@@ -21,7 +21,10 @@ div.media .media-heading .jobTotalDuration {
 
 div.media img {
   width: 15vmin; 
-  margin-right: 10px;
+  margin-right: 10px;  
+}
+
+img.radius{
   border-radius: 50px;
 }
 
