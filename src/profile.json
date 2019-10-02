@@ -207,7 +207,13 @@
         },
 
 
-        
+        {
+            "projectName":"Reddit - viewer",
+            "logo":"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F64315127%2F159233985672%2F1%2Foriginal.20190623-074848?w=1000&auto=compress&rect=0%2C0%2C600%2C300&s=e39a79bed5ce937648d80a796c7cee05",
+            "url":"https://morozec.github.io/RedditViewer/",
+            "description":"Проект, созданный в результате изучения связки технологий React + Redux."
+            
+        },
 
         {
             "projectName":"Монополия, онлайн-игра",
