@@ -9,7 +9,7 @@ const MainProjects = () => (
                 {profile.projects.map((project, i) => (
                     <Media key={i}>
                         <Media left top href={project.url}>
-                            <Media object src={project.logo} alt={project.projectName} className='radius' />
+                            <Media object src={project.logo} alt={project.projectName} />
                         </Media>
 
                         <Media body>
